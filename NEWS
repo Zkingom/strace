@@ -28,6 +28,8 @@ Noteworthy changes in release ?.? (????-??-??)
     when the declared header length exceeds the available buffer size.
   * Fixed decoding of AF_BRIDGE RTM_GETNEIGH requests, including requests
     with multiple attributes.
+  * Fixed decoding of BPF_OBJ_GET_INFO_BY_FD for BPF links created by
+    BPF_LINK_CREATE.
 
 Noteworthy changes in release 7.2 (2026-08-18)
 ==============================================
